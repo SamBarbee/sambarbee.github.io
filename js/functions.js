@@ -7,7 +7,7 @@ $(window).scroll(function(){
   });
 
   $('.smoke').css({
-    'transform' : 'translate(0px, '+ wScroll /9 +'%)'
+    'transform' : 'translate(0px, '+ wScroll /4 +'%)'
   });
 
 });
