@@ -906,7 +906,7 @@ img {
   background-repeat: repeat-y;
   position: absolute;
   top: 50%;
-  opacity:0.8;
+  opacity:1;
   margin-top: -500px;
   margin-left:auto;
   margin-right:auto;}
