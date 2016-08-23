@@ -909,7 +909,7 @@ img {
   background-repeat: no-repeat;
   background-size: 75vh 75vh;
   position: relative;
-
+  transition: all 0.3s ease-in-out;
   }
 
 .smoke {
@@ -924,3 +924,10 @@ img {
   margin-top: -500px;
   margin-left:auto;
   margin-right:auto;}
+
+
+@media screen and (max-width:75vh) {
+  .logo {
+    background-size: 75vw 75vw;
+  }
+}
