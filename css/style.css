@@ -866,7 +866,7 @@ h1 {
 figure {
   margin: auto; }
 
-.content article {
+article {
   padding: 100px 0;
   max-width: 640px;
   margin: 0 auto;
@@ -874,6 +874,29 @@ figure {
 
 img {
   max-width: 100%; }
+
+section {
+  display: none;
+  transition: all 0.3s ease-in-out;
+
+}
+
+section.is-showing {
+
+}
+
+.github {
+  background-color: #6D0091;
+  color:#fff;
+}
+.vex {
+  background-color: #fff;
+  color:#000;
+}
+.youtube {
+  background-color: #CF0026;
+  color:#fff;
+}
 
 
 .header{
